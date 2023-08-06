@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+#secondpart{
+    background-color: rgb(33, 33, 33);
+    color: white;
+     display: block;
+    padding: 10px;
+}
+#secondpart >#div1{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+#secondpart >#div1 p{
+    width: 90%;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#secondpart >#div2{
+    width: 90%;
+    padding: 10px;
+    text-align: right;
+
+}
+#secondpart >#div2 img{
+    height: 170px;
+    border-radius: 100px;
+    border: 2px solid rgb(246, 15, 200);
+}
+/* <!-- secondpart ends here --> */
+#services{
+    background-color: rgb(34, 34, 35);
+    color: white;
+    padding-top: 40px;
+}
+#services h2{
+    text-align: center;
+}
+#services #div11{
+  
+ display: block;
+}
+#services #div11 div{
+    width: 90%;
+    height: 240px;
+
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+#services #div11 div img{
+    height: 80px;
+}
+#services #div12{
+  
+display: block;
+}
+#services #div12 div{
+   width: 90%;
+   height: 240px;
+   background-color: rgb(17, 17, 17);
+   padding: 10px;
+   text-align: center;
+   margin: 10px;
+   border-radius: 20px;
+   border: 1px solid white;
+}
+#services #div12 div img{
+    height: 80px;
+}
+#div13{
+    text-align: center;
+}
+/* services end here */
+
+#aboutUs{
+    background-color: rgb(34, 34, 35);
+    height: 700px;
+    color: white;
+    display: block;
+
+
+}
+#aboutUs  #div21{
+    width: 90%;
+    padding-left: 5px;
+}
+#aboutUs  #div21 p{
+    width: 100%;
+    text-align: justify;
+}
+#aboutUs #div22 img{
+      height: 120px;
+      border-radius: 100px;
+      border: 2px solid red;
+}
+#aboutUs  #div22{
+    text-align: left;
+}
+#aboutUs  #div22 #img1{
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#btn1{
+    position: relative;
+    top: 260px;
+}
+/* about ends here */
+
+#blog{
+    background-color: rgb(34, 34, 35);
+    
+    color: white;
+    margin-top: 100px;
+    
+}
+#blog h2{
+    text-align: center;
+}
+#blog #div31{
+    display: block;
+    justify-content: center;
+}
+#blog #div31 div{
+    width: 98%;
+    border: 1px solid red;
+    margin: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-left: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+#blog #div31 img{
+    height: 150px;
+    width: 200px;
+}
+
+
+#contact{
+    background-color: rgb(34, 34, 35);
+    color: white;
+    padding: 20px;
+    
+}
+#contact h2{
+    text-align: center;
+}
+
+#form1{
+    display: block;
+    margin-left: 0px;
+}
+input{
+    width: 340px;
+}
+textarea{
+    width: 340px;
+}
+
+
+#footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: block;
+}
+#footer #div51{
+    width: 90%;
+    text-align: center;
+    display: none;
+}
+#footer #div52{
+    /* background-color: blue; */
+    width: 80%;
+    text-align: left;
+}
+#footer #div52 a{
+    margin-left: 10px;
+}
+body{
+    background-color: rgb(34, 34, 35);
+}

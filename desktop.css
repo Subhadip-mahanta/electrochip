@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#secondpart{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+#secondpart >#div1{
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 20px;
+}
+#secondpart >#div1 p{
+    width: 70%;
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#secondpart >#div2{
+    width: 40%;
+    padding: 10px;
+
+}
+#secondpart >#div2 img{
+    height: 200px;
+    border-radius: 100px;
+    border: 2px solid rgb(99, 6, 230);
+}
+/* <!-- secondpart ends here --> */
+#services{
+    background-color: rgb(34, 34, 35);
+    color: white;
+    padding-top: 40px;
+}
+#services h2{
+    text-align: center;
+}
+#services #div11{
+  
+     display: flex;
+     justify-content: center;
+}
+#services #div11 div{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+#services #div11 div img{
+    height: 80px;
+}
+#services #div12{
+  
+    display: flex;
+    justify-content: center;
+}
+#services #div12 div{
+   width: 25%;
+   height: 250px;
+   background-color: rgb(17, 17, 17);
+   padding: 10px;
+   text-align: center;
+   margin: 10px;
+   border-radius: 20px;
+   border: 1px solid white;
+}
+#services #div12 div img{
+    height: 80px;
+}
+#div13{
+    text-align: center;
+    margin-top: 20px;
+}
+/* services end here */
+#aboutUs{
+    background-color: rgb(34, 34, 35);
+    color: white;
+    padding: 10px;
+  padding-top: 30px;
+  display: flex;
+
+}
+#aboutUs  #div21{
+    width: 60%;
+    padding-left: 30px;
+}
+#aboutUs  #div21 p{
+    width: 90%;
+    text-align: justify;
+}
+#aboutUs #div22 img{
+      height: 200px;
+      border-radius: 100px;
+      border: 2px solid red;
+}
+#aboutUs  #div22{
+    text-align: left;
+}
+#aboutUs  #div22 #img1{
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+/* about ends here */
+#blog{
+    background-color: rgb(34, 34, 35);
+    
+    color: white;
+    
+}
+#blog h2{
+    text-align: center;
+}
+#blog #div31{
+    display: flex;
+    justify-content: center;
+}
+#blog #div31 div{
+    border: 1px solid red;
+    margin: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-left: 8px;
+}
+#blog #div31 img{
+    height: 200px;
+}
+/* blog ends here */
+#contact{
+    background-color: rgb(34, 34, 35);
+    color: white;
+    padding: 20px;
+    
+}
+#contact h2{
+    text-align: center;
+}
+
+#form1{
+    display: block;
+    margin-left: 300px;
+}
+input{
+    width: 680px;
+    border-radius: 10px;
+}
+textarea{
+    width: 680px;
+    border-radius: 10px;
+
+}
+
+#footer{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    display: flex;
+}
+#footer #div51{
+    width: 50%;
+    text-align: center;
+}
+#footer #div52{
+    /* background-color: blue; */
+    width: 50%;
+    text-align: center;
+}
+#footer #div52 a{
+    margin-left: 10px;
+}
